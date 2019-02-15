@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,7 +15,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-bottom: 0px;">
         <div class="container p-0">
             <a class="navbar-brand" href="index.html">George Massingill</a> <button aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav"
@@ -37,9 +37,33 @@
     </nav>
 
     <!--Content-->
-    <div class="container">
-      Contact
+    <div class="wrapper">
+        <div class="container">
+            <div class="card col-lg-12 mt-4">
+                <div class="card-body">
+                    <h4 class="card-title">Contact</h4>
+                    <hr>
+                    <form>
+                            <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="John Smith">
+                                </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
 
 
     <!--Footer-->
@@ -49,7 +73,7 @@
                 <span class="text-muted">
                     Copyright © 2019 GSM
                 </span>
-            </div>            
+            </div>
         </div>
     </footer>
 
