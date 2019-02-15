@@ -1,0 +1,13 @@
+nav {
+    border-bottom: 2px solid #ccc;
+}
+
+footer {
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+}
+
+#mepic {
+    height: 350px;
+    width: 250px;
+}
