@@ -82,6 +82,11 @@ li span {
     color:#fff;
 }
 
+.list-group-item-primary {
+    background-color: #4aaaa5!important;
+}
+
+
 #mepic {
     height: 350px;
     width: 250px;
